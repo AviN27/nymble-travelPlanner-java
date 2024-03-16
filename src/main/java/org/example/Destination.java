@@ -33,30 +33,12 @@ public class Destination {
     }
 
     /**
-     * Sets the name of the destination.
-     *
-     * @param name The name of the destination.
-     */
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    /**
      * Returns the list of activities available at the destination.
      *
      * @return The list of activities.
      */
     public List<Activity> getActivities() {
         return activities;
-    }
-
-    /**
-     * Sets the list of activities available at the destination.
-     *
-     * @param activities The list of activities available at the destination.
-     */
-    public void setActivities(List<Activity> activities) {
-        this.activities = activities;
     }
 
     /**

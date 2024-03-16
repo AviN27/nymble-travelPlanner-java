@@ -40,30 +40,12 @@ public class Activity {
     }
 
     /**
-     * Sets the name of the activity.
-     *
-     * @param name The name of the activity.
-     */
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    /**
      * Returns a brief description of the activity.
      *
      * @return A brief description of the activity.
      */
     public String getDescription() {
         return description;
-    }
-
-    /**
-     * Sets the description of the activity.
-     *
-     * @param description A brief description of the activity.
-     */
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     /**
@@ -76,30 +58,12 @@ public class Activity {
     }
 
     /**
-     * Sets the cost of participating in the activity.
-     *
-     * @param cost The cost of participating in the activity.
-     */
-    public void setCost(double cost) {
-        this.cost = cost;
-    }
-
-    /**
      * Returns the maximum number of passengers that can participate in the activity.
      *
      * @return The maximum number of passengers that can participate in the activity.
      */
     public int getCapacity() {
         return capacity;
-    }
-
-    /**
-     * Sets the maximum number of passengers that can participate in the activity.
-     *
-     * @param capacity The maximum number of passengers that can participate in the activity.
-     */
-    public void setCapacity(int capacity) {
-        this.capacity = capacity;
     }
 
     /**

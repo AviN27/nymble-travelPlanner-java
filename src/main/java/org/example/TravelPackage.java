@@ -28,39 +28,12 @@ public class TravelPackage {
     }
 
     /**
-     * Returns the name of the travel package.
-     *
-     * @return The name of the travel package.
-     */
-    public String getName() {
-        return name;
-    }
-
-    /**
-     * Returns the passenger capacity of the travel package.
-     *
-     * @return The passenger capacity of the travel package.
-     */
-    public Integer getPassengerCapacity() {
-        return passengerCapacity;
-    }
-
-    /**
      * Returns the list of destinations included in the travel package.
      *
      * @return The list of destinations included in the travel package.
      */
     public List<Destination> getDestinations() {
         return destinations;
-    }
-
-    /**
-     * Sets the list of destinations included in the travel package.
-     *
-     * @param destinations The list of destinations to set.
-     */
-    public void setDestinations(List<Destination> destinations) {
-        this.destinations = destinations;
     }
 
     /**

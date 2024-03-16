@@ -35,30 +35,12 @@ abstract class Passenger {
     }
 
     /**
-     * Sets the name of the passenger.
-     *
-     * @param name The name of the passenger to set.
-     */
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    /**
      * Returns the passenger number.
      *
      * @return The passenger number.
      */
     public int getPassengerNumber() {
         return passengerNumber;
-    }
-
-    /**
-     * Sets the passenger number.
-     *
-     * @param passengerNumber The passenger number to set.
-     */
-    public void setPassengerNumber(int passengerNumber) {
-        this.passengerNumber = passengerNumber;
     }
 
     /**
