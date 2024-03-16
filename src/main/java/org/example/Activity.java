@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.ArrayList;
-
 /**
  * The Activity class represents an activity that can be booked by passengers at a destination which is a part of the
  * travel package.
