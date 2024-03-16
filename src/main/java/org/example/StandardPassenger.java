@@ -35,6 +35,7 @@ public class StandardPassenger extends Passenger {
      */
     @Override
     public void printDetails() {
+        System.out.println("--- Standard Passenger ---");
         System.out.println("Name: " + getName());
         System.out.println("Passenger Number: " + getPassengerNumber());
         System.out.println("Balance: $" + getBalance());
@@ -44,6 +45,7 @@ public class StandardPassenger extends Passenger {
             System.out.println("  Activity: " + activity.getName());
             System.out.println("  Price: $" + activity.getCost());
         }
+        System.out.println("---------------------------------");
     }
 
     /**

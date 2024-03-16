@@ -29,7 +29,6 @@ public class Activity {
         this.description = description;
         this.cost = cost;
         this.capacity = capacity;
-        ArrayList<Passenger> passengers = new ArrayList<Passenger>();
     }
 
 

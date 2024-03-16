@@ -101,6 +101,7 @@ public class TravelPackage {
      * Prints the itinerary of the travel package, including destinations and activities.
      */
     public void printItinerary() {
+        System.out.println("--- Itinerary Summary ---");
         System.out.println("Travel Package Name: " + name);
         System.out.println("Itinerary:");
         for (Destination destination : destinations) {
@@ -113,12 +114,14 @@ public class TravelPackage {
                 System.out.println("    Description: " + activity.getDescription());
             }
         }
+        System.out.println("---------------------------------");
     }
 
     /**
      * Prints the passenger list of the travel package, including passenger capacity and enrolled passengers.
      */
     public void printPassengerList() {
+        System.out.println("--- Passenger List ---");
         System.out.println("Travel Package Name: " + name);
         System.out.println("Passenger Capacity: " + passengerCapacity);
         System.out.println("Number of Passengers Enrolled: " + passengers.size());
@@ -127,12 +130,14 @@ public class TravelPackage {
             System.out.println("- Name: " + passenger.getName());
             System.out.println("  Passenger Number: " + passenger.getPassengerNumber());
         }
+        System.out.println("---------------------------------");
     }
 
     /**
      * Prints the details of available activities in the travel package.
      */
     public void printAvailableActivities() {
+        System.out.println("--- Available Activities ---");
         System.out.println("Available Activities in " + name + ":");
         for (Destination destination : destinations) {
             System.out.println("- Destination: " + destination.getName());
@@ -144,5 +149,6 @@ public class TravelPackage {
                 }
             }
         }
+        System.out.println("---------------------------------");
     }
 }

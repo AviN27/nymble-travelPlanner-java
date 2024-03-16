@@ -38,6 +38,7 @@ public class GoldPassenger extends Passenger {
      */
     @Override
     public void printDetails() {
+        System.out.println("--- Gold Passenger ---");
         System.out.println("Name: " + getName());
         System.out.println("Passenger Number: " + getPassengerNumber());
         System.out.println("Balance: $" + getBalance());
@@ -47,6 +48,7 @@ public class GoldPassenger extends Passenger {
             System.out.println("  Activity: " + activity.getName());
             System.out.println("  Price: $" + (activity.getCost() * 0.9)); // Apply discount
         }
+        System.out.println("---------------------------------");
     }
 
     /**

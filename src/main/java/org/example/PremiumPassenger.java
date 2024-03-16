@@ -23,6 +23,7 @@ public class PremiumPassenger extends Passenger {
      */
     @Override
     public void printDetails() {
+        System.out.println("--- Premium Passenger ---");
         System.out.println("Name: " + getName());
         System.out.println("Passenger Number: " + getPassengerNumber());
         System.out.println("Passenger Type: Premium");
@@ -32,6 +33,7 @@ public class PremiumPassenger extends Passenger {
             System.out.println("  Activity: " + activity.getName());
             System.out.println("  Price: Free"); // Premium passengers book activities for free
         }
+        System.out.println("---------------------------------");
     }
 
     /**
