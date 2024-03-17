@@ -31,4 +31,4 @@ Open the project in your Java IDE.
 Run the main class to execute the application.
 
 ## Dependencies
-This application is built using Java only and does not require any external dependencies.
+This application is built using Java and Junit with Maven.
