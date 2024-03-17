@@ -15,6 +15,7 @@ class TravelPackageTest {
         travelPackage.addPassenger(passenger1);
         travelPackage.addPassenger(passenger2);
 
+        // Check if passengers are added to the travel package successfully
         assertEquals(2, travelPackage.getPassengers().size());
     }
 
@@ -25,6 +26,7 @@ class TravelPackageTest {
 
         travelPackage.addDestination(destination);
 
+        // Check if the destinations are added successfully
         assertEquals(1, travelPackage.getDestinations().size());
     }
 
@@ -39,7 +41,7 @@ class TravelPackageTest {
         travelPackage.addDestination(destination);
 
         travelPackage.printItinerary();
-        // Verify output manually
+        // Output can be verified manually
     }
 
     @Test
@@ -51,7 +53,7 @@ class TravelPackageTest {
         travelPackage.addPassenger(passenger2);
 
         travelPackage.printPassengerList();
-        // Verify output manually
+        // Output can be verified manually
     }
 
     @Test
@@ -63,6 +65,6 @@ class TravelPackageTest {
         travelPackage.addDestination(destination);
 
         travelPackage.printAvailableActivities();
-        // Verify output manually
+        // Output can be verified manually
     }
 }

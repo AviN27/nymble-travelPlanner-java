@@ -29,7 +29,10 @@ class GoldPassengerTest {
 
         goldPassenger.bookActivity(activity);
 
+        // Check if activity was booked successfully
         assertEquals(1, goldPassenger.getBookedActivities().size());
+
+        // Check if the balance is correct as per discounted price
         assertEquals(55.0, goldPassenger.getBalance()); // 100 - (50 * 0.9)
     }
 }

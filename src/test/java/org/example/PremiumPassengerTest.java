@@ -21,6 +21,7 @@ class PremiumPassengerTest {
 
         premiumPassenger.bookActivity(activity);
 
+        // Check if activity was booked successfully
         assertEquals(1, premiumPassenger.getBookedActivities().size());
     }
 }

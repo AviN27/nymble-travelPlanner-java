@@ -19,6 +19,7 @@ class DestinationTest {
 
         List<Activity> activities = destination.getActivities();
 
+        // Check if the activities and destinations are linked
         assertEquals(2, activities.size());
         assertTrue(activities.contains(activity1));
         assertTrue(activities.contains(activity2));

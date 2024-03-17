@@ -28,15 +28,20 @@ class ActivityTest {
 
         // Check if activity was booked successfully
         assertEquals(1, passenger.getBookedActivities().size());
+    }
+
+    @Test
+    void testBookActivityWithoutSpace() {
 
         // Create an activity without space
         Activity activityWithoutSpace = new Activity("Test Activity", "Test Description", 50.0, 0);
 
         // Try to book activity for the passenger
-        passenger = new StandardPassenger("Alice", 2, 100.0);
+        StandardPassenger passenger = new StandardPassenger("Alice", 2, 100.0);
         activityWithoutSpace.bookActivity(passenger);
 
         // Check if activity booking failed due to lack of space
         assertNull(passenger.getBookedActivities(), "Activity is already full.");
+
     }
 }

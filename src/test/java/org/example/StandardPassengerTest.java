@@ -29,7 +29,10 @@ class StandardPassengerTest {
 
         standardPassenger.bookActivity(activity);
 
+        // Check if activity was booked successfully
         assertEquals(1, standardPassenger.getBookedActivities().size());
+
+        // Check if the balance is correct as per deduction
         assertEquals(50.0, standardPassenger.getBalance()); // 100 - 50
     }
 }
