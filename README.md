@@ -1,4 +1,4 @@
-# Travel Package Management Application
+# Travel Planner App
 This Java application is designed to manage travel packages for travel agencies. It allows travel agencies to create and maintain travel packages, including itinerary details, destinations, activities, and passengers.
 
 ## Features
